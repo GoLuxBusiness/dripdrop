@@ -141,7 +141,15 @@ p {
 }
 
 
-@media(min-width: 400px) {
+@media(max-width: 449px) {
+	.logo img {
+		width: 180px; /* Change image size for small sized devices */
+	}
+
+}
+
+
+@media(min-width: 450px) {
 	.logo img {
 		width: 280px; /* Change image size for mid sized devices */
 	}
