@@ -46,8 +46,8 @@ p {
 	width: 225px; /* Change image size for mobile */
 	-webkit-animation-name: logo;
 	        animation-name: logo;
-	-webkit-animation-duration: 2s;
-	        animation-duration: 2s;
+	-webkit-animation-duration: 10s;
+	        animation-duration: 10s;
 	-webkit-animation-iteration-count: infinite;
 	        animation-iteration-count: infinite;
 	-webkit-animation-timing-function: ease-in-out;
@@ -125,13 +125,13 @@ p {
 
 .title {
 	font-weight: bold;
-	font-size: 17px;
-	color: white;
+	font-size: 20px;
+	color: #C8B06A;
 }
 
 .subtitle {
 	color: #cfcfcf;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .title,
