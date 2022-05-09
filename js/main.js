@@ -20,12 +20,12 @@ if (doParticles) {
     if (getWidth() < 400) $.firefly({
         minPixel: 1,
         maxPixel: 2,
-        total: 20
+        total: 5
     });
     else $.firefly({
         minPixel: 1,
-        maxPixel: 3,
-        total: 40
+        maxPixel: 2,
+        total: 10
     });
 }
 
